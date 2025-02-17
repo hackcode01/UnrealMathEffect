@@ -8,4 +8,8 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED 14)
 set(CMAKE_CXX_STANDARD_DEFAULT 17)
 
-add_executable(${PROJECT_NAME} src/main.cpp)
+file(GLOB_RECURSE SOURCES_FILES
+    "include/*.h" "src/*.c" "include/*.hpp" "src/*.cpp"
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES_FILES} main.cpp)

@@ -1,0 +1,5 @@
+# ninja log v6
+179	232	7615185800000000	math_core.exe	cdff349ee0a91b58
+2	178	7615185781500000	CMakeFiles/math_core.dir/main.cpp.obj	4c3b341285205388
+3	212	7615197472200000	CMakeFiles/math_core.dir/main.cpp.obj	4c3b341285205388
+212	269	7615197480000000	math_core.exe	cdff349ee0a91b58
