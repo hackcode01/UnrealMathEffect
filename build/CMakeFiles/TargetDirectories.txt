@@ -1,3 +1,0 @@
-D:/Programming/C++/UnrealMathEffect/build/CMakeFiles/math_core.dir
-D:/Programming/C++/UnrealMathEffect/build/CMakeFiles/edit_cache.dir
-D:/Programming/C++/UnrealMathEffect/build/CMakeFiles/rebuild_cache.dir

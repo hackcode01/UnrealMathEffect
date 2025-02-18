@@ -1,3 +1,0 @@
-E:/programming-source-code/UnrealMathEffect/src/core/build_ninja/CMakeFiles/math_core.dir
-E:/programming-source-code/UnrealMathEffect/src/core/build_ninja/CMakeFiles/edit_cache.dir
-E:/programming-source-code/UnrealMathEffect/src/core/build_ninja/CMakeFiles/rebuild_cache.dir

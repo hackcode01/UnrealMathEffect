@@ -6,7 +6,7 @@
 /* Division with signed numbers */
 fast_i8 division(fast_i8 a, fast_i8 b);
 
-fast_i16 division(fast_i16 a, fast_i16 b);
+short division(short a, short b);
 
 fast_i32 division(fast_i32 a, fast_i32 b);
 

@@ -5,7 +5,7 @@ fast_i8 addition(fast_i8 a, fast_i8 b) {
     return a + b;
 }
 
-fast_i16 addition(fast_i16 a, fast_i16 b) {
+short addition(short a, short b) {
     return a + b;
 }
 

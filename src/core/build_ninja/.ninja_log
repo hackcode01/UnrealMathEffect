@@ -1,7 +1,0 @@
-# ninja log v6
-1	224	7613348674600000	CMakeFiles/math_core.exe.dir/src/main.cpp.obj	50bf95dc490b88a0
-225	279	7613348680000000	math_core.exe.exe	4ae8c2ce1dabd8a0
-208	258	7613349100000000	math_core.exe	5a8677a710e2cf4
-2	208	7613349082200000	CMakeFiles/math_core.dir/src/main.cpp.obj	3863afb7d86aceb
-4	183	7613355765400000	CMakeFiles/math_core.dir/src/main.cpp.obj	6dbe1576da63a0ee
-183	234	7613355780000000	math_core.exe	5a8677a710e2cf4

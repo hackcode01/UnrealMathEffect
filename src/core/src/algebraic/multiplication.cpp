@@ -5,7 +5,7 @@ fast_i8 multiplication(fast_i8 a, fast_i8 b) {
     return a * b;
 }
 
-fast_i16 multiplication(fast_i16 a, fast_i16 b) {
+short multiplication(short a, short b) {
     return a * b;
 }
 

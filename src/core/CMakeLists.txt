@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.15 FATAL_ERROR)
 
 set(PROJECT_NAME math_core)
-
 project(${PROJECT_NAME})
 
 set(CMAKE_CXX_STANDARD 14)
@@ -13,3 +12,6 @@ file(GLOB_RECURSE SOURCES_FILES
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES_FILES} main.cpp)
+set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME}
+)

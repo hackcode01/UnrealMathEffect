@@ -6,7 +6,7 @@
 /* Multiplication with signed numbers */
 fast_i8 multiplication(fast_i8 a, fast_i8 b);
 
-fast_i16 multiplication(fast_i16 a, fast_i16 b);
+short multiplication(short a, short b);
 
 fast_i32 multiplication(fast_i32 a, fast_i32 b);
 

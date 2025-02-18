@@ -1,9 +1,0 @@
-# ninja log v6
-3	212	7615197472200000	CMakeFiles/math_core.dir/main.cpp.obj	4c3b341285205388
-212	269	7615197480000000	math_core.exe	cdff349ee0a91b58
-13	131	7615624867214462	CMakeFiles/math_core.dir/src/algebraic/division.cpp.obj	314e9c1546862589
-9	132	7615624867174453	CMakeFiles/math_core.dir/src/algebraic/addition.cpp.obj	c425a3f4a308c920
-18	132	7615624867269761	CMakeFiles/math_core.dir/src/algebraic/subtraction.cpp.obj	7314b0b23e4057d6
-15	133	7615624867234428	CMakeFiles/math_core.dir/src/algebraic/multiplication.cpp.obj	5bb65bd38fc12ae8
-21	433	7615624867299787	CMakeFiles/math_core.dir/main.cpp.obj	2636f9f8b7cacdb6
-434	550	7615624871418351	math_core.exe	1661b45f5d8e0c67
