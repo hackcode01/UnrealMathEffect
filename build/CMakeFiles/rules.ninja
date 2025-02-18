@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\CMake\bin\cmake.exe --regenerate-during-build -SE:\programming-source-code\UnrealMathEffect\src\core -BE:\programming-source-code\UnrealMathEffect\build
+  command = D:\CMake\bin\cmake.exe --regenerate-during-build -SD:\Programming\C++\UnrealMathEffect\src\core -BD:\Programming\C++\UnrealMathEffect\build
   description = Re-running CMake...
   generator = 1
 
