@@ -1,11 +1,10 @@
 #include "../../include/algebraic/multiplication.hpp"
 
-/* Multiplication with signed numbers */
 fast_i8 multiplication(fast_i8 a, fast_i8 b) {
     return a * b;
 }
 
-short multiplication(short a, short b) {
+fast_i16 multiplication(fast_i16 a, fast_i16 b) {
     return a * b;
 }
 
@@ -17,7 +16,7 @@ fast_i64 multiplication(fast_i64 a, fast_i64 b) {
     return a * b;
 }
 
-/* Multiplication with unsigned numbers */
+
 fast_u8 multiplication(fast_u8 a, fast_u8 b) {
     return a * b;
 }
@@ -31,5 +30,14 @@ fast_u32 multiplication(fast_u32 a, fast_u32 b) {
 }
 
 fast_u64 multiplication(fast_u64 a, fast_u64 b) {
+    return a * b;
+}
+
+
+float_32 multiplication(float_32 a, float_32 b) {
+    return a * b;
+}
+
+float_64 multiplication(float_64 a, float_64 b) {
     return a * b;
 }
