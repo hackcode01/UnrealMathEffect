@@ -4,7 +4,7 @@ fast_i8 multiplication(fast_i8 a, fast_i8 b) {
     return a * b;
 }
 
-fast_i16 multiplication(fast_i16 a, fast_i16 b) {
+short multiplication(short a, short b) {
     return a * b;
 }
 
@@ -34,10 +34,10 @@ fast_u64 multiplication(fast_u64 a, fast_u64 b) {
 }
 
 
-float_32 multiplication(float_32 a, float_32 b) {
+f32 multiplication(f32 a, f32 b) {
     return a * b;
 }
 
-float_64 multiplication(float_64 a, float_64 b) {
+f64 multiplication(f64 a, f64 b) {
     return a * b;
 }

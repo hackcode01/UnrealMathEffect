@@ -5,7 +5,7 @@
 
 /* Multiplication with signed integer numbers */
 fast_i8 multiplication(fast_i8 a, fast_i8 b);
-fast_i16 multiplication(fast_i16 a, fast_i16 b);
+short multiplication(short a, short b);
 fast_i32 multiplication(fast_i32 a, fast_i32 b);
 fast_i64 multiplication(fast_i64 a, fast_i64 b);
 
@@ -16,7 +16,7 @@ fast_u32 multiplication(fast_u32 a, fast_u32 b);
 fast_u64 multiplication(fast_u64 a, fast_u64 b);
 
 /* Multiplication with floating numbers */
-float_32 multiplication(float_32 a, float_32 b);
-float_64 multiplication(float_64 a, float_64 b);
+f32 multiplication(f32 a, f32 b);
+f64 multiplication(f64 a, f64 b);
 
 #endif

@@ -13,7 +13,7 @@ using fast_u16 = unsigned short;
 using fast_u32 = unsigned int;
 using fast_u64 = unsigned long long;
 
-using float_32 = float;
-using float_64 = double;
+using f32 = float;
+using f64 = double;
 
 #endif

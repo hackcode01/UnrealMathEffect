@@ -4,7 +4,7 @@ fast_i8 division(fast_i8 a, fast_i8 b) {
     return a / b;
 }
 
-fast_i16 division(fast_i16 a, fast_i16 b) {
+short division(short a, short b) {
     return a / b;
 }
 
@@ -33,15 +33,11 @@ fast_u64 division(fast_u64 a, fast_u64 b) {
     return a / b;
 }
 
-float_32 division(float_32 a, float_32 b) {
+
+f32 division(f32 a, f32 b) {
     return a / b;
 }
 
-
-float_32 division(float_32 a, float_32 b) {
-    return a / b;
-}
-
-float_64 division(float_64 a, float_64 b) {
+f64 division(f64 a, f64 b) {
     return a / b;
 }
