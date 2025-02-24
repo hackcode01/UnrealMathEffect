@@ -1,6 +1,6 @@
 #include "../../include/algebraic/subtraction.hpp"
 
-fast_i8 subtraction(fast_i8 a, fast_i8 b) {
+i8 subtraction(i8 a, i8 b) {
     return a - b;
 }
 
@@ -8,28 +8,28 @@ short subtraction(short a, short b) {
     return a - b;
 }
 
-fast_i32 subtraction(fast_i32 a, fast_i32 b) {
+i32 subtraction(i32 a, i32 b) {
     return a - b;
 }
 
-fast_i64 subtraction(fast_i64 a, fast_i64 b) {
+i64 subtraction(i64 a, i64 b) {
     return a - b;
 }
 
 
-fast_u8 subtractiond(fast_u8 a, fast_u8 b) {
+u8 subtractiond(u8 a, u8 b) {
     return a - b;
 }
 
-fast_u16 subtraction(fast_u16 a, fast_u16 b) {
+u16 subtraction(u16 a, u16 b) {
     return a - b;
 }
 
-fast_u32 subtraction(fast_u32 a, fast_u32 b) {
+u32 subtraction(u32 a, u32 b) {
     return a - b;
 }
 
-fast_u64 subtraction(fast_u64 a, fast_u64 b) {
+u64 subtraction(u64 a, u64 b) {
     return a - b;
 }
 

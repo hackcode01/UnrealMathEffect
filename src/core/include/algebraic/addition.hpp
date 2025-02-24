@@ -4,16 +4,16 @@
 #include "../types.hpp"
 
 /* Addition with signed integer numbers */
-fast_i8 addition(fast_i8 a, fast_i8 b);
+i8 addition(i8 a, i8 b);
 short addition(short a, short b);
-fast_i32 addition(fast_i32 a, fast_i32 b);
-fast_i64 addition(fast_i64 a, fast_i64 b);
+i32 addition(i32 a, i32 b);
+i64 addition(i64 a, i64 b);
 
 /* Addition with unsigned integer numbers */
-fast_u8 addition(fast_u8 a, fast_u8 b);
-fast_u16 addition(fast_u16 a, fast_u16 b);
-fast_u32 addition(fast_u32 a, fast_u32 b);
-fast_u64 addition(fast_u64 a, fast_u64 b);
+u8 addition(u8 a, u8 b);
+u16 addition(u16 a, u16 b);
+u32 addition(u32 a, u32 b);
+u64 addition(u64 a, u64 b);
 
 /* Addition with floating numbers */
 f32 addition(f32 a, f32 b);

@@ -6,8 +6,8 @@
 #include "../src/core/include/algebraic/division.hpp"
 
 TEST_CASE("Additions are computed", "[addition]") {
-    REQUIRE(addition(static_cast<fast_i32>(228), static_cast<fast_i32>(2)) == static_cast<fast_i32>(230));
-    REQUIRE(subtraction(static_cast<fast_i32>(228), static_cast<fast_i32>(2)) == static_cast<fast_i32>(226));
-    REQUIRE(multiplication(static_cast<fast_i32>(228), static_cast<fast_i32>(2)) == static_cast<fast_i32>(456));
-    REQUIRE(division(static_cast<fast_i32>(228), static_cast<fast_i32>(2)) == static_cast<fast_i32>(114));
+    REQUIRE(addition(static_cast<i32>(228), static_cast<i32>(2)) == static_cast<i32>(230));
+    REQUIRE(subtraction(static_cast<i32>(228), static_cast<i32>(2)) == static_cast<i32>(226));
+    REQUIRE(multiplication(static_cast<i32>(228), static_cast<i32>(2)) == static_cast<i32>(456));
+    REQUIRE(division(static_cast<i32>(228), static_cast<i32>(2)) == static_cast<i32>(114));
 }
