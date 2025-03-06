@@ -1,22 +1,28 @@
+#pragma warning( disable : 4464 )
+
 #include "../../include/algebraic/matrix.hpp"
 
+#include <cmath>
+
+/* Вычисление минимального значения */
+i32 min(i32 a, i32 b) {
+    return ((a < b) ? a : b);
+}
+
 void matrix_multiplication(const f32* a, const f32* b, f32* c,
-                 i32 rows_a, i32 cols_a, i32 cols_b) {
+                           i32 rows_a, i32 columns_a, i32 columns_b) {
     constexpr i32 TILE = 64;
 
     #pragma omp parallel for collapse(2)
 
-    for (size_t i = 0; i < rows_a; i += TILE) {
-        for (size_t j = 0; j < cols_b; j += TILE) {
-            for (size_t k = 0; k < cols_a; k += TILE) {
-                for (size_t ii = i; ii < i + TILE; ++ii) {
-                    for (size_t kk = k; kk < k + TILE; ++kk) {
-                        __m256 a = _mm256_set1_ps(a[ii * cols_a + kk]);
-                        for (size_t jj = j; jj < j + TILE; jj += 8) {
-                            __m256 b = _mm256_loadu_ps(&b[kk * cols_b + jj]);
-                            __m256 c = _mm256_loadu_ps(&c[ii * cols_b + jj]);
-                            c = _mm256_fmadd_ps(a, b, c);
-                            _mm256_storeu_ps(&c[ii * cols_b + jj], c);
+    for (i32 i = 0; i < rows_a; i += TILE) {
+        for (i32 j = 0; j < columns_b; j += TILE) {
+            for (i32 k = 0; k < columns_a; k += TILE) {
+                for (i32 ii = i; ii < min(i + TILE, rows_a); ++ii) {
+                    for (i32 kk = k; kk < min(k + TILE, columns_a); ++kk) {
+                        float a_val = a[ii * columns_a + kk];
+                        for (i32 jj = j; jj < min(j + TILE, columns_b); ++jj) {
+                            c[ii * columns_b + jj] += a_val * b[kk * columns_b + jj];
                         }
                     }
                 }
