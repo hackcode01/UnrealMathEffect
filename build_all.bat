@@ -1,3 +1,6 @@
+cmake -S . -B build_all_vs
+cmake --build ./build_all_vs --config MinSizeRel
+
 cmake -S ./lib -B ./lib/build_vs
 cmake --build ./lib/build_vs --config MinSizeRel
 
@@ -12,5 +15,6 @@ cmake --build ./src/core/build_vs --config MinSizeRel
 
 cmake -S ./test -B ./test/build_vs
 cmake --build ./test/build_vs --config MinSizeRel
+
 
 ninja -C ./windows/build
