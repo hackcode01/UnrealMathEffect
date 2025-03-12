@@ -1,4 +1,4 @@
-#pragma warning( disable : 4464 )
+#pragma warning(disable : 4464)
 
 #include "../../include/algebraic/matrix.hpp"
 
